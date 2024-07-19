@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Arial, sans-serif';
 }
 
 .App-logo {
@@ -36,3 +37,25 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  margin: 2px auto;;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #0e0c0cdc;
+  color: white;
+  text-align: center;
+  padding: 1px ;
+}
+

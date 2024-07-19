@@ -1,0 +1,45 @@
+.projects {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .project-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0;
+  }
+  
+  .pop-in-left {
+    transform: translateX(-100%);
+    animation: pop-in-left 2s forwards;
+  }
+  
+  .pop-in-right {
+    transform: translateX(100%);
+    animation: pop-in-right 2s forwards;
+  }
+  
+  @keyframes pop-in-left {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes pop-in-right {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
