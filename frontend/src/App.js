@@ -6,6 +6,8 @@ import Footer from './Components/Footer';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Counter from './Components/Counter';
+import FeedbackForm from './Components/FeedbackForm';
+import FeedbackList from './Components/FeedbackList';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <Skills />
       </div>
       <Counter />
-       <Textform />
+      <Textform />
+      <FeedbackForm onFeedbackSubmitted={() => window.location.reload()} />
+          <FeedbackList />
        <Footer />
     </div>
   );
